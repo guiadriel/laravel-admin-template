@@ -1,0 +1,62 @@
+
+
+.login {
+    background-color:#FFF;
+    background: url('../images/fruits_background.png') no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    background-position: 0 -30px;
+}
+
+
+.login .container{
+    width:100%;
+    padding: 0 24px;
+    text-align:center;
+}
+
+.title-page {
+    font-size:20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: $brown;
+}
+
+.title-welcome {
+    font-family: 'Baloo Thambi 2', cursive;
+    font-size: 34px;
+    color: $primary;
+    font-weight:800;
+    text-transform: uppercase;
+    margin-bottom:0;
+}
+
+.title-description {
+    font-weight: 300;
+    color: $primary;
+    font-size: 14px;
+    font-family: 'Roboto';
+}
+
+.logo {
+    margin: 0 auto;
+    margin-top: 75px;
+    padding:20px 0;
+    text-align: center;
+}
+
+.logo img {
+    width: 180px;
+}
+
+
+@media ( min-width: $md ){
+    .login {
+        background: url('../images/fruits_background_repeat.png') repeat-x;
+        background-size: 100% 200px;
+    }
+
+    .login .container{
+        margin-top:100px;
+    }
+}

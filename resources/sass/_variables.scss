@@ -1,0 +1,43 @@
+// Body
+$body-bg: #FFF;
+
+// Typography
+$font-family-sans-serif: 'Nunito', sans-serif;
+$font-roboto: 'Roboto', sans-serif;
+$font-size-base: 0.9rem;
+$line-height-base: 1.6;
+
+// Colors
+$blue: #3490dc;
+$indigo: #6574cd;
+$purple: #9561e2;
+$pink: #f66d9b;
+$red: #e3342f;
+$red-1: #B60000;
+$orange: #FF8800;
+$orange-rgb: rgb(255,136,0);
+
+$yellow: #D1AE30;
+$green: #50A463;
+$teal: #4dc0b5;
+$cyan: #6cb2eb;
+$grey: #E5E5E5;
+$brown: #804818;
+$brown-2: #40240C;
+
+$white: #FFF;
+$black: #000;
+
+$primary: $orange ;
+$secondary: $brown-2;
+
+//medias
+$xs: 575px; // max
+$sm: 576px; // min
+$md: 768px; // min
+$lg: 992px; // min
+$xl: 1200px; // min
+
+// bars-navigation
+$sidebar: 250px;
+

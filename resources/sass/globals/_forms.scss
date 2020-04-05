@@ -1,0 +1,48 @@
+// .text-primary { color: $primary; }
+
+// .text-secondary { color: $secondary}
+
+.form-control {
+    height:50px;
+    border-radius: 2px;
+    line-height:50px;
+    font-family: 'Roboto';
+    outline: 0;
+
+    &:focus {
+        border-color: $primary;
+        box-shadow: none;
+    }
+}
+
+::placeholder {
+    color: #707070;
+    font-family: 'Roboto';
+    font-size: 300;
+}
+
+
+
+.btn-orange {
+    background: $primary;
+    font-size: 20px;
+    padding:15px 0;
+    text-align:center;
+    color: #FFF;
+    padding: 0.375rem 0.75rem;
+    font-size: 0.9rem;
+
+    &:focus {
+        box-shadow: 0 0 0 0.2rem rgba( $primary, 0.25)
+    }
+}
+
+.btn-outline-orange {
+    color: $primary;
+    border-color: $primary;
+}
+
+
+.btn-link {
+    color: $grey;
+}
